@@ -10,16 +10,14 @@ body {
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: hotpink;
+    background-color: #191919;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 #calculadora-corpo {
-    background-color: rgb(77, 74, 74);
+    background-color: #F48FB1;
     width: 532px;
     /* height: 345px; */
     display: flex;
@@ -32,39 +30,51 @@ body {
 
 #visor-externo {
     width: 100%;
-    background-color: #C8B18F;
-    padding: 14px;
-    border-radius: 15px;
+    background-color: #BA68C8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 #visor-interno {
-    background-color: #a09c9c;
-    width: 90%;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: inset -1px 16px 28px -12px lightgreen;
+    background-color: #c7b5b5;
+    width: 65%;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: inset 1px 5px 6px -2px;
 }
 
 #teclado {
-border: 2px solid #C8B18F;
-padding: 5px;
+    border: 1px solid #9C27B0;
+    padding: 5px;
+    border-radius: inherit;
 }
 
 .btn {
-    background-color: black;
+    background-color: #BA68C8;
     color: #fff;
     padding: 15px 30px;
     width: 80px;
-    border: solid 1px white;
+    border: solid 1px #EC407A;
     font-size: 20px;
     font-weight: bold;
     border-radius: 30px;
     margin: 4px;
     cursor: pointer;
     transition: opacity 0.3s;
+    box-shadow: 0px -3px 2px #EC407A;
 }
 
 .btn:hover {
     opacity: 0.8;
 
+}
+
+.apagar,
+.back{
+    color: purple;
+}
+.igual{
+        width: 95%;
+        margin: 5px;
 }
