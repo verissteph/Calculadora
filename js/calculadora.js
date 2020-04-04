@@ -7,9 +7,7 @@ let opBack = document.querySelector('.back');
 
 listaDeBotoes.forEach(botao => {
     botao.onclick = () => {
-        if (botao.textContent == "=" || botao.textContent == "CE") {
-            return;
-        } else if (botao.textContent == " C ") {
+        if (botao.textContent == "=" || botao.textContent == "CE" || botao.textContent == " C ") {
             return;
         } else {
             conteudoDoVisor.innerHTML += botao.textContent
